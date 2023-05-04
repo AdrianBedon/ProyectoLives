@@ -25,7 +25,7 @@ public class HeartSystem : MonoBehaviour
             {
                 GameObject heart = Instantiate(brokenHeartPrefab, transform.position, Quaternion.identity);
                 heart.transform.parent = transform;
-        }
+            }
         }
     }
 }
